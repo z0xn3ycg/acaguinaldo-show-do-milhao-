@@ -1,0 +1,14 @@
+PUBLICAÇÃO DO SITE NO GITHUB PAGES
+
+1. Configure site/config.js com a URL do Supabase e a chave anon/public.
+2. Crie um repositório GitHub para a entrega.
+3. Envie os arquivos da pasta site/ para a branch main (na raiz do repositório),
+   ou ajuste Pages para publicar a pasta escolhida.
+4. Abra Settings > Pages.
+5. Em Build and deployment, escolha Deploy from a branch.
+6. Selecione a branch main e a pasta / (root), depois Save.
+7. Aguarde o endereço aparecer em Settings > Pages.
+8. Abra o link, confira se os jogos carregam e se o ranking consulta o Supabase.
+9. Copie o link real para README.md e ENTREGA_MOODLE.txt.
+
+Não publique .env, senha do banco ou chave service_role.

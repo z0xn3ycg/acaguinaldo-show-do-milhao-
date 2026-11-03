@@ -1,0 +1,9 @@
+Integrantes: [nome completo 1] e [nome completo 2]
+
+Turma: [turma]
+
+Nome do jogo: Show do Milhão
+
+Repositório GitHub: [link do repositório]
+
+Site no GitHub Pages: [link do site publicado]

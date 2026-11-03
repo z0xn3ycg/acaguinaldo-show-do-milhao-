@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Show do Milhão • Ranking</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="config.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+<body>
+  <main class="container">
+    <header>
+      <p class="eyebrow">PLACAR OFICIAL</p>
+      <h1>Show do Milhão</h1>
+      <p class="sub">Os melhores resultados de cada jogador.</p>
+    </header>
+    <section class="panel">
+      <div class="toolbar">
+        <label for="jogo">Jogo</label>
+        <select id="jogo"><option value="">Carregando jogos...</option></select>
+        <button id="atualizar">Atualizar ranking</button>
+      </div>
+      <p id="status" role="status">Conectando ao banco de dados...</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>#</th><th>Jogo</th><th>Apelido</th><th>Prêmio</th><th>Tempo</th><th>Data</th></tr></thead>
+          <tbody id="linhas"></tbody>
+        </table>
+      </div>
+    </section>
+    <footer>Valores fictícios • Ranking atualizado diretamente do banco online</footer>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
